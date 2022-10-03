@@ -1,38 +1,64 @@
-.App {
-  text-align: center;
+section.top-section {
+  width: -webkit-fill-available;
+  height: 100vh;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+section {
+  padding: 3rem 5rem;
+  background: #26363d;
+  color: #dfeff5;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.gradient {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 150px;
+  background: linear-gradient(0deg, #26363d, transparent);
+  z-index: 5;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+button {
+  background: #172226;
   color: white;
+  position: absolute;
+  top: 50vh;
+  left: 46vw;
+  font-size: 30px;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 3rem;
+  z-index: 3;
 }
-
-.App-link {
-  color: #61dafb;
+img.sky {
+  z-index: 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+img.backRocks {
+  z-index: 1;
+}
+img.MiddleRocks {
+  z-index: 2;
+}
+img.FrontRocks {
+  z-index: 4;
+}
+.text {
+  position: absolute;
+  top: 10vh;
+  right: -40%;
+  width: fit-content;
+  font-size: 60px;
+  color: #293f48;
+  font-weight: 700;
+  z-index: 3;
 }
