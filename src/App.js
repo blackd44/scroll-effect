@@ -9,6 +9,9 @@ import FrontRocks from './assets/118Z_2012.w017.n001.324A.p30.3244.png'
 function App() {
 
   useEffect(() => {
+    let text = document.querySelector('.text')
+    text.style.right = (0 - text.offsetWidth) + 'px'
+
     window.addEventListener('scroll', () => {
       let scroll = window.scrollY
       let skyImage = document.querySelector('.sky')
@@ -18,14 +21,13 @@ function App() {
       let button = document.querySelector('button')
       let text = document.querySelector('.text')
 
-      skyImage.style.left = scroll * .75 + 'px'
+      skyImage.style.left = scroll * .35 + 'px'
       skyImage.style.top = scroll * .5 + 'px'
       backRocksImage.style.top = scroll * .4 + 'px'
       middleRocksImage.style.top = scroll * .25 + 'px'
       FrontRocksImage.style.top = scroll * .1 + 'px'
       button.style.marginTop = scroll * .3 + 'px'
       text.style.marginRight = scroll * 3.5 + 'px'
-      text.style.marginTop = scroll  + 'px'
     })
   }, [])
   return (

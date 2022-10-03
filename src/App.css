@@ -54,11 +54,26 @@ img.FrontRocks {
 }
 .text {
   position: absolute;
-  top: 10vh;
+  top: 48vh;
   right: -40%;
   width: fit-content;
   font-size: 60px;
   color: #293f48;
   font-weight: 700;
   z-index: 3;
+}
+@media screen and (max-width: 900px) {
+  button {
+    left: 36vw;
+    font-size: 20px;
+    padding: 0.5rem 1rem;
+  }
+  .text {
+    right: 0;
+    width: max-content;
+    font-size: 45px;
+  }
+  section {
+    padding: 3rem 2rem;
+  }
 }
