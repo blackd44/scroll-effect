@@ -10,7 +10,10 @@ function App() {
 
   useEffect(() => {
     let text = document.querySelector('.text')
+    let button = document.querySelector('button')
+
     text.style.right = (0 - text.offsetWidth) + 'px'
+    button.style.left = 'calc( 48% -' + (button.offsetWidth / 2) + 'px)'
 
     window.addEventListener('scroll', () => {
       let scroll = window.scrollY
@@ -18,8 +21,6 @@ function App() {
       let backRocksImage = document.querySelector('.backRocks')
       let middleRocksImage = document.querySelector('.MiddleRocks')
       let FrontRocksImage = document.querySelector('.FrontRocks')
-      let button = document.querySelector('button')
-      let text = document.querySelector('.text')
 
       skyImage.style.left = scroll * .35 + 'px'
       skyImage.style.top = scroll * .5 + 'px'
@@ -33,7 +34,7 @@ function App() {
   return (
     <>
       <section className='top-section'>
-        <div className='text'>I thing you are enjoying</div>
+        <div className='text'>I think you are enjoying</div>
         <button>Join Now</button>
         <img alt='sky' src={sky} className='sky' />
         <img alt='backRocks' src={backRocks} className='backRocks' />

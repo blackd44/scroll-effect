@@ -64,7 +64,7 @@ img.FrontRocks {
 }
 @media screen and (max-width: 900px) {
   button {
-    left: 36vw;
+    left: 40%;
     font-size: 20px;
     padding: 0.5rem 1rem;
   }
