@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/scroll-effect/static/css/main.3434e8cc.css",
-    "main.js": "/scroll-effect/static/js/main.4d65ffe2.js",
+    "main.css": "/scroll-effect/static/css/main.26b33c62.css",
+    "main.js": "/scroll-effect/static/js/main.79e52217.js",
     "static/js/787.4ee2cfa1.chunk.js": "/scroll-effect/static/js/787.4ee2cfa1.chunk.js",
     "static/media/118Z_2012.w017.n001.324A.p30.3243.png": "/scroll-effect/static/media/118Z_2012.w017.n001.324A.p30.3243.9018cef9f5305baa7090.png",
     "static/media/118Z_2012.w017.n001.324A.p30.3244.png": "/scroll-effect/static/media/118Z_2012.w017.n001.324A.p30.3244.26ca108c41449d248063.png",
     "static/media/118Z_2012.w017.n001.324A.p30.3242.png": "/scroll-effect/static/media/118Z_2012.w017.n001.324A.p30.3242.650441127fd6572c40a5.png",
     "static/media/118Z_2012.w017.n001.324A.p30.3245.png": "/scroll-effect/static/media/118Z_2012.w017.n001.324A.p30.3245.458c835882c7b34ad779.png",
     "index.html": "/scroll-effect/index.html",
-    "main.3434e8cc.css.map": "/scroll-effect/static/css/main.3434e8cc.css.map",
-    "main.4d65ffe2.js.map": "/scroll-effect/static/js/main.4d65ffe2.js.map",
+    "main.26b33c62.css.map": "/scroll-effect/static/css/main.26b33c62.css.map",
+    "main.79e52217.js.map": "/scroll-effect/static/js/main.79e52217.js.map",
     "787.4ee2cfa1.chunk.js.map": "/scroll-effect/static/js/787.4ee2cfa1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3434e8cc.css",
-    "static/js/main.4d65ffe2.js"
+    "static/css/main.26b33c62.css",
+    "static/js/main.79e52217.js"
   ]
 }
